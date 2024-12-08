@@ -1,4 +1,29 @@
- H  aug-SZV-MOLOPT-ae-SR
+####################################################################################
+#                                                                                  #
+#   All-electron basis sets for excited-state calculations like TDDFT, GW, GW+BSE  #
+#                                                                                  #
+# ##################################################################################
+#                                                                                  #
+#  Generation recipe: use existing basis set (e.g. STO-6G, or Jürg's               # 
+#  SVP-MOLOPT-GGA-ae, TZVPP-MOLOPT-GGA-ae) and add for each ℓ, 0 ≤ ℓ ≤ ℓ_max + 1   #
+#  one contracted Gaussian.                                                        #
+#                                                                                  #
+#  Example: Carbon STO-6G: 2x s, 1x p;                                             #
+#           aug-SZV-MOLOPT-ae = STO-6G + 1x s + 1x p + 1x d = 3x s + 2x p + 1x d   #
+#                                                                                  #
+#  Optimize contraction coefficients of added Gaussian for molecular set to get    #
+#  GW+BSE excitation energies (5 lowest) in good agreement with aug-cc-5ZVP.       #
+#  In this way, Gaussian exponents for empty molecular orbitals are optimized.     #
+#  This also means that the convergence of the total energy is expected to be of   #
+#  similar quality as the original, unaugmented basis set.                         #
+#                                                                                  #
+#  As RI basis sets, please use cc-pVXZ-RIFIT, X = D, T from basissetexchange.org  #
+#                                                                                  #
+#  Contact: Jan Wilhelm, jan.wilhelm@ur.de                                         #
+#                                                                                  #
+####################################################################################
+
+H  aug-SZV-MOLOPT-ae-SR
                 1
 2 0 1 4 3 1
  0.0654284286  0.0000000000 -0.6121238451  3.0262809744  0.5859881132
