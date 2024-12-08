@@ -6,9 +6,9 @@
 # ######################################################################################
 #                                                                                      #
 #  Generation recipe: use existing basis set (e.g. SZV-MOLOPT-GTH) and add for each    #
-#  ℓ, 0 ≤ ℓ ≤ ℓ_max + 1 one contracted Gaussian.                                       #
+#  ℓ quantum number, 0 ≤ ℓ ≤ ℓ_max + 1 one contracted Gaussian.                        #
 #                                                                                      #
-#  Example: Carbon SZV-MOLOPT-GTH: 1x s, 1x p;                                         #                                                #
+#  Example: Carbon SZV-MOLOPT-GTH: 1x s, 1x p;                                         #
 #           Carbon aug-SZV-MOLOPT-GTH = SZV-MOLOPT-GTH + 1x s + 1x p + 1x d            #
 #                                     = 2x s + 2x p + 1x d                             #
 #                                                                                      #
