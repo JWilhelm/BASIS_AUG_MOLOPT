@@ -1,6 +1,7 @@
 ########################################################################################
 #                                                                                      #
-#   Basis sets for excited-state calculations like TDDFT, GW, GW+BSE with GTH pseudos  #
+#                  Gaussian basis sets for excited-state calculations                  #
+#                   like TDDFT, GW, GW+BSE with GTH pseudopotentials                   #
 #                                                                                      #
 # ######################################################################################
 #                                                                                      #
