@@ -16,6 +16,8 @@
 #  In this way, Gaussian exponents for empty molecular orbitals are optimized.     #
 #  This also means that the convergence of the total energy is expected to be of   #
 #  similar quality as the original, unaugmented basis set.                         #
+#  Also, the condition number is optimized to prevent issues regarding SCF         #
+#  convergence large molecules and solids.                                         #
 #                                                                                  #
 #  As RI basis sets, please use cc-pVXZ-RIFIT, X = D, T from basissetexchange.org  #
 #                                                                                  #
