@@ -1,4 +1,32 @@
- H  aug-SZV-MOLOPT-GTH
+########################################################################################
+#                                                                                      #
+#   Basis sets for excited-state calculations like TDDFT, GW, GW+BSE with GTH pseudos  #
+#                                                                                      #
+# ######################################################################################
+#                                                                                      #
+#  Generation recipe: use existing basis set (e.g. SZV-MOLOPT-GTH) and add for each    #
+#  ℓ, 0 ≤ ℓ ≤ ℓ_max + 1 one contracted Gaussian.                                       #
+#                                                                                      #
+#  Example: Carbon SZV-MOLOPT-GTH: 1x s, 1x p;                                         #                                                #
+#           Carbon aug-SZV-MOLOPT-GTH = SZV-MOLOPT-GTH + 1x s + 1x p + 1x d            #
+#                                     = 2x s + 2x p + 1x d                             #
+#                                                                                      #
+#  Optimize contraction coefficients of added Gaussian for molecular set to get        #
+#  GW+BSE excitation energies (5 lowest) in good agreement with complete basis limit.  #
+#  In this way, Gaussian exponents for empty molecular orbitals are optimized.         #
+#  This also means that the convergence of the total energy is expected to be of       #
+#  similar quality as the original, unaugmented basis set.                             #
+#  Also, the condition number is optimized to avoid issues regarding SCF convergence   #
+#  of large molecules and solids.                                                      #
+#                                                                                      #
+#  Please use corresponding RI basis sets from                                         #
+#  BASIS_GTH_MOLOPT_AUG_for_excited_states_RI                                          #
+#                                                                                      #
+#  Contact: Jan Wilhelm, jan.wilhelm@ur.de                                             #
+#                                                                                      #
+########################################################################################
+
+H  aug-SZV-MOLOPT-GTH
         1
    2 0 1 6 3 1
  0.0821931844 -0.1316128615  0.4071355144  0.2139998661  2.2917775933
