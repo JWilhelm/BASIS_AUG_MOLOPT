@@ -5685,7 +5685,7 @@ C  RI_aug-TZVP-MOLOPT-GTH_N_RI_197_s_p_d_f_g_h_i_7_6_6_6_6_3_1_error_3.2e-07
       7.7470110808    1.0000000000
 
 # RI basis set for N, GTH pseudo, relative accuracy of RI-MP2: 3.4e-02
-N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_010_s_p_d_f_g_h_i_4_2_0_0_0_0_0_error_3.4e-02
+N  RI_aug-SZV-MOLOPT-GTH_N_RI_010_s_p_d_f_g_h_i_4_2_0_0_0_0_0_error_3.4e-02
    6
      1   0   0   1   1
       0.1002949860    1.0000000000
@@ -5701,7 +5701,7 @@ N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_010_s_p_d_f_g_h_i_4_2_0_0_0_0_0_error_3.4e-02
       1.6741812238    1.0000000000
 
 # RI basis set for N, GTH pseudo, relative accuracy of RI-MP2: 7.2e-03
-N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_020_s_p_d_f_g_h_i_4_2_2_0_0_0_0_error_7.2e-03
+N  RI_aug-SZV-MOLOPT-GTH_N_RI_020_s_p_d_f_g_h_i_4_2_2_0_0_0_0_error_7.2e-03
    8
      1   0   0   1   1
       0.1846743319    1.0000000000
@@ -5721,7 +5721,7 @@ N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_020_s_p_d_f_g_h_i_4_2_2_0_0_0_0_error_7.2e-03
       1.8623867805    1.0000000000
 
 # RI basis set for N, GTH pseudo, relative accuracy of RI-MP2: 4.9e-06
-N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_027_s_p_d_f_g_h_i_4_2_2_1_0_0_0_error_4.9e-06
+N  RI_aug-SZV-MOLOPT-GTH_N_RI_027_s_p_d_f_g_h_i_4_2_2_1_0_0_0_error_4.9e-06
    9
      1   0   0   1   1
       0.2813286598    1.0000000000
@@ -5743,7 +5743,7 @@ N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_027_s_p_d_f_g_h_i_4_2_2_1_0_0_0_error_4.9e-06
       0.7329531203    1.0000000000
 
 # RI basis set for N, GTH pseudo, relative accuracy of RI-MP2: 2.4e-06
-N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_035_s_p_d_f_g_h_i_4_3_3_1_0_0_0_error_2.4e-06
+N  RI_aug-SZV-MOLOPT-GTH_N_RI_035_s_p_d_f_g_h_i_4_3_3_1_0_0_0_error_2.4e-06
    11
      1   0   0   1   1
       0.3491438344    1.0000000000
@@ -5769,7 +5769,7 @@ N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_035_s_p_d_f_g_h_i_4_3_3_1_0_0_0_error_2.4e-06
       0.6811495761    1.0000000000
 
 # RI basis set for N, GTH pseudo, relative accuracy of RI-MP2: 1.1e-06
-N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_036_s_p_d_f_g_h_i_5_3_3_1_0_0_0_error_1.1e-06
+N  RI_aug-SZV-MOLOPT-GTH_N_RI_036_s_p_d_f_g_h_i_5_3_3_1_0_0_0_error_1.1e-06
    12
      1   0   0   1   1
       0.3460060202    1.0000000000
@@ -5797,7 +5797,7 @@ N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_036_s_p_d_f_g_h_i_5_3_3_1_0_0_0_error_1.1e-06
       0.6762626486    1.0000000000
 
 # RI basis set for N, GTH pseudo, relative accuracy of RI-MP2: 4.4e-07
-N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_041_s_p_d_f_g_h_i_7_4_3_1_0_0_0_error_4.4e-07
+N  RI_aug-SZV-MOLOPT-GTH_N_RI_041_s_p_d_f_g_h_i_7_4_3_1_0_0_0_error_4.4e-07
    15
      1   0   0   1   1
       0.2760956081    1.0000000000
@@ -5831,7 +5831,7 @@ N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_041_s_p_d_f_g_h_i_7_4_3_1_0_0_0_error_4.4e-07
       0.6624140282    1.0000000000
 
 # RI basis set for N, GTH pseudo, relative accuracy of RI-MP2: 8.5e-08
-N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_056_s_p_d_f_g_h_i_7_5_4_2_0_0_0_error_8.5e-08
+N  RI_aug-SZV-MOLOPT-GTH_N_RI_056_s_p_d_f_g_h_i_7_5_4_2_0_0_0_error_8.5e-08
    18
      1   0   0   1   1
       0.2756185055    1.0000000000
@@ -5871,7 +5871,7 @@ N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_056_s_p_d_f_g_h_i_7_5_4_2_0_0_0_error_8.5e-08
      11.9649674896    1.0000000000
 
 # RI basis set for N, GTH pseudo, relative accuracy of RI-MP2: 3.6e-08
-N  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_108_s_p_d_f_g_h_i_7_6_6_5_2_0_0_error_3.6e-08
+N  RI_aug-SZV-MOLOPT-GTH_N_RI_108_s_p_d_f_g_h_i_7_6_6_5_2_0_0_error_3.6e-08
    26
      1   0   0   1   1
       0.2800302725    1.0000000000
@@ -7127,7 +7127,7 @@ N  RI_aug-TZVP-MOLOPT-GTH_N_RI_188_s_p_d_f_g_h_i_7_6_6_6_5_3_1_error_9.8e-07
       5.0079842773    1.0000000000
 
 # RI basis set for O, GTH pseudo, relative accuracy of RI-MP2: 4.9e-02
-O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_010_s_p_d_f_g_h_i_4_2_0_0_0_0_0_error_4.9e-02
+O  RI_aug-SZV-MOLOPT-GTH_N_RI_010_s_p_d_f_g_h_i_4_2_0_0_0_0_0_error_4.9e-02
    6
      1   0   0   1   1
       1.6820502338    1.0000000000
@@ -7143,7 +7143,7 @@ O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_010_s_p_d_f_g_h_i_4_2_0_0_0_0_0_error_4.9e-02
       3.9276462893    1.0000000000
 
 # RI basis set for O, GTH pseudo, relative accuracy of RI-MP2: 8.6e-03
-O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_020_s_p_d_f_g_h_i_4_2_2_0_0_0_0_error_8.6e-03
+O  RI_aug-SZV-MOLOPT-GTH_N_RI_020_s_p_d_f_g_h_i_4_2_2_0_0_0_0_error_8.6e-03
    8
      1   0   0   1   1
       0.3589441532    1.0000000000
@@ -7163,7 +7163,7 @@ O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_020_s_p_d_f_g_h_i_4_2_2_0_0_0_0_error_8.6e-03
       4.9639913781    1.0000000000
 
 # RI basis set for O, GTH pseudo, relative accuracy of RI-MP2: 3.0e-04
-O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_027_s_p_d_f_g_h_i_4_2_2_1_0_0_0_error_3.0e-04
+O  RI_aug-SZV-MOLOPT-GTH_N_RI_027_s_p_d_f_g_h_i_4_2_2_1_0_0_0_error_3.0e-04
    9
      1   0   0   1   1
       0.4255217976    1.0000000000
@@ -7185,7 +7185,7 @@ O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_027_s_p_d_f_g_h_i_4_2_2_1_0_0_0_error_3.0e-04
       0.7416301302    1.0000000000
 
 # RI basis set for O, GTH pseudo, relative accuracy of RI-MP2: 7.4e-05
-O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_035_s_p_d_f_g_h_i_4_3_3_1_0_0_0_error_7.4e-05
+O  RI_aug-SZV-MOLOPT-GTH_N_RI_035_s_p_d_f_g_h_i_4_3_3_1_0_0_0_error_7.4e-05
    11
      1   0   0   1   1
       0.3870363292    1.0000000000
@@ -7211,7 +7211,7 @@ O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_035_s_p_d_f_g_h_i_4_3_3_1_0_0_0_error_7.4e-05
       0.7593527397    1.0000000000
 
 # RI basis set for O, GTH pseudo, relative accuracy of RI-MP2: 2.6e-05
-O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_039_s_p_d_f_g_h_i_5_4_3_1_0_0_0_error_2.6e-05
+O  RI_aug-SZV-MOLOPT-GTH_N_RI_039_s_p_d_f_g_h_i_5_4_3_1_0_0_0_error_2.6e-05
    13
      1   0   0   1   1
       0.5039721477    1.0000000000
@@ -7241,7 +7241,7 @@ O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_039_s_p_d_f_g_h_i_5_4_3_1_0_0_0_error_2.6e-05
       0.8064135705    1.0000000000
 
 # RI basis set for O, GTH pseudo, relative accuracy of RI-MP2: 1.1e-05
-O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_045_s_p_d_f_g_h_i_6_4_4_1_0_0_0_error_1.1e-05
+O  RI_aug-SZV-MOLOPT-GTH_N_RI_045_s_p_d_f_g_h_i_6_4_4_1_0_0_0_error_1.1e-05
    15
      1   0   0   1   1
       0.3771016664    1.0000000000
@@ -7275,7 +7275,7 @@ O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_045_s_p_d_f_g_h_i_6_4_4_1_0_0_0_error_1.1e-05
       0.7668193898    1.0000000000
 
 # RI basis set for O, GTH pseudo, relative accuracy of RI-MP2: 3.9e-06
-O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_055_s_p_d_f_g_h_i_6_5_4_2_0_0_0_error_3.9e-06
+O  RI_aug-SZV-MOLOPT-GTH_N_RI_055_s_p_d_f_g_h_i_6_5_4_2_0_0_0_error_3.9e-06
    17
      1   0   0   1   1
       0.3845654734    1.0000000000
@@ -7313,7 +7313,7 @@ O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_055_s_p_d_f_g_h_i_6_5_4_2_0_0_0_error_3.9e-06
       3.4032912450    1.0000000000
 
 # RI basis set for O, GTH pseudo, relative accuracy of RI-MP2: 1.1e-06
-O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_056_s_p_d_f_g_h_i_7_5_4_2_0_0_0_error_1.1e-06
+O  RI_aug-SZV-MOLOPT-GTH_N_RI_056_s_p_d_f_g_h_i_7_5_4_2_0_0_0_error_1.1e-06
    18
      1   0   0   1   1
       0.4166383136    1.0000000000
@@ -7353,7 +7353,7 @@ O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_056_s_p_d_f_g_h_i_7_5_4_2_0_0_0_error_1.1e-06
       1.5220757793    1.0000000000
 
 # RI basis set for O, GTH pseudo, relative accuracy of RI-MP2: 4.1e-07
-O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_073_s_p_d_f_g_h_i_7_6_4_4_0_0_0_error_4.1e-07
+O  RI_aug-SZV-MOLOPT-GTH_N_RI_073_s_p_d_f_g_h_i_7_6_4_4_0_0_0_error_4.1e-07
    21
      1   0   0   1   1
       0.4059956299    1.0000000000
@@ -7399,7 +7399,7 @@ O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_073_s_p_d_f_g_h_i_7_6_4_4_0_0_0_error_4.1e-07
      17.3046503933    1.0000000000
 
 # RI basis set for O, GTH pseudo, relative accuracy of RI-MP2: 1.6e-07
-O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_078_s_p_d_f_g_h_i_7_6_5_4_0_0_0_error_1.6e-07
+O  RI_aug-SZV-MOLOPT-GTH_N_RI_078_s_p_d_f_g_h_i_7_6_5_4_0_0_0_error_1.6e-07
    22
      1   0   0   1   1
       0.4015937472    1.0000000000
@@ -7447,7 +7447,7 @@ O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_078_s_p_d_f_g_h_i_7_6_5_4_0_0_0_error_1.6e-07
      17.3017919773    1.0000000000
 
 # RI basis set for O, GTH pseudo, relative accuracy of RI-MP2: 7.0e-08
-O  RI_aug-SZV-MOLOPT-SR-GTH_N_RI_103_s_p_d_f_g_h_i_7_6_5_5_2_0_0_error_7.0e-08
+O  RI_aug-SZV-MOLOPT-GTH_N_RI_103_s_p_d_f_g_h_i_7_6_5_5_2_0_0_error_7.0e-08
    25
      1   0   0   1   1
       0.4027138077    1.0000000000
