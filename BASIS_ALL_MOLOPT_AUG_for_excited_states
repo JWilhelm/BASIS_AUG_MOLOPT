@@ -20,7 +20,7 @@
 #  Also, the condition number is optimized to prevent issues regarding SCF         #
 #  convergence large molecules and solids.                                         #
 #                                                                                  #
-#  As RI basis sets, please use cc-pVXZ-RIFIT, X = D, T from basissetexchange.org  #
+#  Corresponding RI basis sets in BASIS_ALL_MOLOPT_AUG_for_excited_states_RI       #
 #                                                                                  #
 #  Contact: Jan Wilhelm, jan.wilhelm@ur.de                                         #
 #                                                                                  #
