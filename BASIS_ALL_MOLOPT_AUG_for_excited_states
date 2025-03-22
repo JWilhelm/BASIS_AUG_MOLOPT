@@ -18,7 +18,7 @@
 #  This also means that the convergence of the total energy is expected to be of   #
 #  similar quality as the original, unaugmented basis set.                         #
 #  Also, the condition number is optimized to prevent issues regarding SCF         #
-#  convergence large molecules and solids.                                         #
+#  convergence of large molecules and solids.                                      #
 #                                                                                  #
 #  Corresponding RI basis sets in BASIS_ALL_MOLOPT_AUG_for_excited_states_RI       #
 #                                                                                  #
