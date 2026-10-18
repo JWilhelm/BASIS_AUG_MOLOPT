@@ -78,11 +78,11 @@ H  aug-SZV-MOLOPT-GTH-tier-2-SR
   2.680223  -0.122202   0.843318   0.000000   0.122450   0.000000
  10.068468  -0.033917   0.059194   0.000000   0.009905   0.000000
 
-# generated from tier-2 basis set by removing the highest l-quantum number
-# basis set size: 4 s-functions, 3 p-functions, making in total 13 basis functions
+# generated from tier-2 basis set by removing one d-type contraction
+# basis set size: 4 s-functions, 3 p-functions, 1 d-function, making in total 18 basis functions
  H  aug-TZVP-MOLOPT-GTH-tier-1
 1
-2 0 1 7 4 3
+2 0 2 7 4 3 1
   0.021708  -0.001125  -0.059693   0.035435   0.500000   0.120101   0.177877   1.016996  -0.348307
   0.066918   0.037148   0.438703  -0.099864  -0.271499   0.892971   0.037586   0.500000   0.782848
   0.247919   0.324552   0.590363  -0.228296  -0.174434   0.803385  -0.302708  -1.394706   0.073559
