@@ -2244,8 +2244,9 @@ Zn  aug-TZVP-MOLOPT-GTH-tier-2
  2.638267 -0.034509  0.088826 -0.001541  0.000000 -0.020595 -0.015736  0.502191  0.000000  0.622085 -0.181402  0.066216  0.000000  0.006574 -0.002518  0.000000  0.000000
  6.104275  0.007499 -0.009121 -0.074376  0.000000  0.002458  0.000936  0.034896  0.000000  0.531992 -0.075038 -0.010856  0.000000 -0.002144  0.002263  0.000000  0.000000
 
-# Semicore q20: nine shared s/p/d primitives, maximum exponent 20 bohr^-2.
-# Added contractions from atomic SZ2 optimization; original valence block retained.
+# Use aug-SZV-MOLOPT-GTH-tier-2 (see basis above)
+# and add 2 s-, 1 p-, and 1 d-type contracted radial functions
+# to account for semicore states with the GTH-PBE-q20 pseudopotential.
 Zn  aug-SZV-MOLOPT-GTH-tier-2-q20
 2
 2 0 3 6 2 2 2 1
@@ -2266,8 +2267,9 @@ Zn  aug-SZV-MOLOPT-GTH-tier-2-q20
  10.694011  -0.227557  -0.008442   0.017686   0.202592
  20.000000   0.003258   0.000278   0.001941  -0.002273
 
-# Semicore q20: nine shared s/p/d primitives, maximum exponent 20 bohr^-2.
-# Added contractions from atomic DZ1 optimization; original valence block retained.
+# Use aug-DZVP-MOLOPT-GTH-tier-1 (see basis above)
+# and add 2 s-, 1 p-, and 1 d-type contracted radial functions
+# to account for semicore states with the GTH-PBE-q20 pseudopotential.
 Zn  aug-DZVP-MOLOPT-GTH-tier-1-q20
 2
 2 0 3 6 3 3 3 2
@@ -2288,8 +2290,9 @@ Zn  aug-DZVP-MOLOPT-GTH-tier-1-q20
  16.705404   0.043947  -0.007334   0.002675   0.017975
  20.000000  -0.016725   0.002886  -0.004847  -0.007869
 
-# Semicore q20: nine shared s/p/d primitives, maximum exponent 20 bohr^-2.
-# Added contractions from atomic DZ2 optimization; original valence block retained.
+# Use aug-DZVP-MOLOPT-GTH-tier-2 (see basis above)
+# and add 2 s-, 1 p-, and 1 d-type contracted radial functions
+# to account for semicore states with the GTH-PBE-q20 pseudopotential.
 Zn  aug-DZVP-MOLOPT-GTH-tier-2-q20
 2
 2 0 4 6 3 3 3 2 1
@@ -2310,9 +2313,9 @@ Zn  aug-DZVP-MOLOPT-GTH-tier-2-q20
  16.705404   0.043947  -0.007334   0.002675   0.017975
  20.000000  -0.016725   0.002886  -0.004847  -0.007869
 
-# Semicore q20: nine shared s/p/d primitives, maximum exponent 20 bohr^-2.
-# Added contractions from atomic DZ1 optimization; original valence block retained.
-# Semicore block transferred from corresponding DZVP tier; not reoptimized for TZVP.
+# Use aug-TZVP-MOLOPT-GTH-tier-1 (see basis above)
+# and add 2 s-, 1 p-, and 1 d-type contracted radial functions
+# to account for semicore states with the GTH-PBE-q20 pseudopotential.
 Zn  aug-TZVP-MOLOPT-GTH-tier-1-q20
 2
 2 0 3 7 4 4 4 3
@@ -2334,9 +2337,9 @@ Zn  aug-TZVP-MOLOPT-GTH-tier-1-q20
  16.705404   0.043947  -0.007334   0.002675   0.017975
  20.000000  -0.016725   0.002886  -0.004847  -0.007869
 
-# Semicore q20: nine shared s/p/d primitives, maximum exponent 20 bohr^-2.
-# Added contractions from atomic DZ2 optimization; original valence block retained.
-# Semicore block transferred from corresponding DZVP tier; not reoptimized for TZVP.
+# Use aug-TZVP-MOLOPT-GTH-tier-2 (see basis above)
+# and add 2 s-, 1 p-, and 1 d-type contracted radial functions
+# to account for semicore states with the GTH-PBE-q20 pseudopotential.
 Zn  aug-TZVP-MOLOPT-GTH-tier-2-q20
 2
 2 0 4 7 4 4 4 3 1
@@ -2436,9 +2439,9 @@ Ga  aug-TZVP-MOLOPT-GTH-tier-2
  3.016564 -0.014862 -0.048298  0.128378  0.000100  0.020299 -0.021301 -0.002978  0.000100 -0.610381 -0.258290  0.037726  0.000100  0.000556  0.060791  0.100000  0.100000
  6.931811 -0.005259  0.006860  0.054580  0.000000 -0.002513  0.000511 -0.046334  0.000000 -0.492181 -0.149916  0.024040  0.000000  0.000031 -0.029516  0.000000  0.000000
 
-# Semicore q21: nine shared s/p/d primitives, maximum exponent 20 bohr^-2.
-# Added contractions from atomic SZ2 optimization; original valence block retained.
-# Optimized with scalar GTH-PBE-q21 from POTENTIAL_UZH.
+# Use aug-SZV-MOLOPT-GTH-tier-2 (see basis above)
+# and add 2 s-, 2 p-, and 1 d-type contracted radial functions
+# to account for semicore states with the GTH-PBE-q21 pseudopotential.
 Ga  aug-SZV-MOLOPT-GTH-tier-2-q21
 2
 2 0 3 7 2 2 2 1
@@ -2460,9 +2463,9 @@ Ga  aug-SZV-MOLOPT-GTH-tier-2-q21
  16.705404   0.040176   0.007612  -0.001133  -0.002493  -0.026957
  20.000000  -0.013400  -0.002523   0.003352   0.001344   0.011744
 
-# Semicore q21: nine shared s/p/d primitives, maximum exponent 20 bohr^-2.
-# Added contractions from atomic DZ1 optimization; original valence block retained.
-# Optimized with scalar GTH-PBE-q21 from POTENTIAL_UZH.
+# Use aug-DZVP-MOLOPT-GTH-tier-1 (see basis above)
+# and add 2 s-, 2 p-, and 1 d-type contracted radial functions
+# to account for semicore states with the GTH-PBE-q21 pseudopotential.
 Ga  aug-DZVP-MOLOPT-GTH-tier-1-q21
 2
 2 0 3 7 3 3 3 2
@@ -2484,9 +2487,9 @@ Ga  aug-DZVP-MOLOPT-GTH-tier-1-q21
  10.603032   0.182907   0.061079   0.000172   0.000525   0.169454
  20.000000   0.000590   0.000480  -0.002741  -0.000041  -0.001439
 
-# Semicore q21: nine shared s/p/d primitives, maximum exponent 20 bohr^-2.
-# Added contractions from atomic DZ2 optimization; original valence block retained.
-# Optimized with scalar GTH-PBE-q21 from POTENTIAL_UZH.
+# Use aug-DZVP-MOLOPT-GTH-tier-2 (see basis above)
+# and add 2 s-, 2 p-, and 1 d-type contracted radial functions
+# to account for semicore states with the GTH-PBE-q21 pseudopotential.
 Ga  aug-DZVP-MOLOPT-GTH-tier-2-q21
 2
 2 0 4 7 3 3 3 2 1
@@ -2508,10 +2511,9 @@ Ga  aug-DZVP-MOLOPT-GTH-tier-2-q21
  10.603032   0.182907   0.061079   0.000172   0.000525   0.169454
  20.000000   0.000590   0.000480  -0.002741  -0.000041  -0.001439
 
-# Semicore q21: nine shared s/p/d primitives, maximum exponent 20 bohr^-2.
-# Added contractions from atomic DZ1 optimization; original valence block retained.
-# Semicore block transferred from corresponding DZVP tier; not reoptimized for TZVP.
-# Optimized with scalar GTH-PBE-q21 from POTENTIAL_UZH.
+# Use aug-TZVP-MOLOPT-GTH-tier-1 (see basis above)
+# and add 2 s-, 2 p-, and 1 d-type contracted radial functions
+# to account for semicore states with the GTH-PBE-q21 pseudopotential.
 Ga  aug-TZVP-MOLOPT-GTH-tier-1-q21
 2
 2 0 3 7 4 4 4 3
@@ -2533,10 +2535,9 @@ Ga  aug-TZVP-MOLOPT-GTH-tier-1-q21
  10.603032   0.182907   0.061079   0.000172   0.000525   0.169454
  20.000000   0.000590   0.000480  -0.002741  -0.000041  -0.001439
 
-# Semicore q21: nine shared s/p/d primitives, maximum exponent 20 bohr^-2.
-# Added contractions from atomic DZ2 optimization; original valence block retained.
-# Semicore block transferred from corresponding DZVP tier; not reoptimized for TZVP.
-# Optimized with scalar GTH-PBE-q21 from POTENTIAL_UZH.
+# Use aug-TZVP-MOLOPT-GTH-tier-2 (see basis above)
+# and add 2 s-, 2 p-, and 1 d-type contracted radial functions
+# to account for semicore states with the GTH-PBE-q21 pseudopotential.
 Ga  aug-TZVP-MOLOPT-GTH-tier-2-q21
 2
 2 0 4 7 4 4 4 3 1
